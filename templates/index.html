@@ -23,6 +23,7 @@
 	{{ form.search.label }} {{ form.search() }}
 	{{ form.submit() }}
 </form>
+{% endblock %}
 
 <div>
 {% for message in get_flashed_messages() %}
@@ -30,4 +31,3 @@
 {% endfor %}
 </div>
 
-{% endblock %}
